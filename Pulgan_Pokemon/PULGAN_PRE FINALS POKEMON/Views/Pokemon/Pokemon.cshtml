@@ -1,0 +1,81 @@
+﻿namespace PULGAN_PRE_FINALS_POKEMON.Views.Pokemon
+{
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@Model.Name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fedaec;
+            color: #ff70b7;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .pokemon-container {
+            background-color: #feb1d8;
+            border: 2px solid #ff70b7;
+            border-radius: 15px;
+            padding: 20px;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        .pokemon-image {
+            width: 200px;
+            height: auto;
+        }
+
+        .pokemon-details {
+            margin-top: 20px;
+        }
+
+        .abilities, .moves {
+            list-style-type: none;
+            padding: 0;
+        }
+
+            .abilities li, .moves li {
+                background-color: #fedaec;
+                border: 1px solid #ff70b7;
+                border-radius: 5px;
+                margin: 5px 0;
+                padding: 5px;
+            }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="pokemon-container">
+        <h1>@Model.Name</h1>
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png" alt="@Model.Name" class="pokemon-image" />
+        <div class="pokemon-details">
+            <h2>Abilities</h2>
+            <ul class="abilities">
+                @foreach (var ability in Model.Abilities)
+                {
+                    <li>@ability.Ability.Name</li>
+                }
+            </ul>
+            <h2>Moves</h2>
+            <ul class="moves">
+                @foreach (var move in Model.Moves)
+                {
+                    <li>@move.Move.Name</li>
+                }
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

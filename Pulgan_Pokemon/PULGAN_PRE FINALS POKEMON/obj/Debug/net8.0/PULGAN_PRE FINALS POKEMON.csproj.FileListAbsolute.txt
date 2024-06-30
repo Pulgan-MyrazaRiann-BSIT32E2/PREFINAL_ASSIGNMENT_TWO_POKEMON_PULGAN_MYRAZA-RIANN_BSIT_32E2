@@ -1,0 +1,7 @@
+C:\Users\M. PULGAN\OneDrive\Desktop\Pulgan_Pokemon\PULGAN_PRE FINALS POKEMON\obj\Debug\net8.0\PULGAN_PRE FINALS POKEMON.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M. PULGAN\OneDrive\Desktop\Pulgan_Pokemon\PULGAN_PRE FINALS POKEMON\obj\Debug\net8.0\PULGAN_PRE FINALS POKEMON.AssemblyInfoInputs.cache
+C:\Users\M. PULGAN\OneDrive\Desktop\Pulgan_Pokemon\PULGAN_PRE FINALS POKEMON\obj\Debug\net8.0\PULGAN_PRE FINALS POKEMON.AssemblyInfo.cs
+C:\Users\M. PULGAN\OneDrive\Desktop\Pulgan_Pokemon\PULGAN_PRE FINALS POKEMON\obj\Debug\net8.0\PULGAN_PRE FINALS POKEMON.csproj.CoreCompileInputs.cache
+C:\Users\M. PULGAN\OneDrive\Desktop\Pulgan_Pokemon\PULGAN_PRE FINALS POKEMON\obj\Debug\net8.0\PULGAN_PRE FINALS POKEMON.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\M. PULGAN\OneDrive\Desktop\Pulgan_Pokemon\PULGAN_PRE FINALS POKEMON\obj\Debug\net8.0\PULGAN_PRE FINALS POKEMON.RazorAssemblyInfo.cache
+C:\Users\M. PULGAN\OneDrive\Desktop\Pulgan_Pokemon\PULGAN_PRE FINALS POKEMON\obj\Debug\net8.0\PULGAN_PRE FINALS POKEMON.RazorAssemblyInfo.cs
